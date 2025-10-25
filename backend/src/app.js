@@ -1,13 +1,12 @@
-const express =require('express');
-const aiRoutes=require('./routes/ai.routes')
-const app=express()
-app.use(express.json())
+import express from 'express';
+import aiRoutes from './routes/ai.routes.js';
 
-app.get('/',(req,res)=>{
-    res.send ('Hello World')
-})
-app.use('/ai',aiRoutes)
+const app = express();
+app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send('Hello World');
+});
+app.use('/ai', aiRoutes);
 
-
-module .exports=app 
+export default app;
