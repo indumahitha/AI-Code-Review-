@@ -1,10 +1,13 @@
 - [x] Add "start": "node server.js" to package.json scripts
 - [x] Change server.js to listen on port 5000
-- [ ] Build Docker image
-- [ ] Run Docker container and test
-- [ ] Create docker-compose.yml for local development
-- [ ] Create .github/workflows/deploy.yml for CI/CD with GHCR
-- [ ] Provide manual deployment steps for AWS EC2
-- [ ] (Optional) Create Terraform configuration for EC2
-- [ ] Test locally with Docker Compose
-- [ ] Update TODO.md with progress
+- [x] Build Docker image
+- [x] Run Docker container and test
+- [x] Create docker-compose.yml for local development
+- [x] Create .github/workflows/deploy.yml for CI/CD with GHCR
+- [x] Provide manual deployment steps for AWS EC2
+- [x] (Optional) Create Terraform configuration for EC2
+- [x] Test locally with Docker Compose
+- [x] Update TODO.md with progress
+- [x] Push changes to GitHub and verify CI/CD pipeline
+- [ ] Deploy to AWS EC2 using provided scripts
+- [ ] Test production deployment
