@@ -9,5 +9,5 @@
 - [x] Test locally with Docker Compose
 - [x] Update TODO.md with progress
 - [x] Push changes to GitHub and verify CI/CD pipeline
-- [ ] Deploy to AWS EC2 using provided scripts
-- [ ] Test production deployment
+- [x] Deploy to AWS EC2 using provided scripts
+- [x] Test production deployment
